@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApplication3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="441.045" Width="1036.94">
+    <Grid>
+        <Button   Background="Blue" Foreground="Gold" FontSize="20" Content="闪一闪" HorizontalAlignment="Left" Margin="71,80,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="203,102,0,0" TextWrapping="Wrap"  Name="txtName" Text="姜欣" VerticalAlignment="Top"/>
+        <TextBox  IsReadOnly="True" HorizontalAlignment="Left" Height="60" Margin="71,135,0,0" TextWrapping="Wrap"  Text="好看是的付款后独守空房还是快点回复快点回复可视电话客户反馈速度" VerticalAlignment="Top" Width="232" TextChanged="TextBox_TextChanged"/>
+        <TextBox MaxLength="5" HorizontalAlignment="Left" Height="23" Margin="118,225,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="290,225,0,0" VerticalAlignment="Top" Width="165"/>
+        <RadioButton  GroupName="xingbie" Content="RadioButton" HorizontalAlignment="Left" Margin="329,35,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="xingbie" Content="RadioButton" HorizontalAlignment="Left" Margin="329,56,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="gbie" Content="RadioButton" HorizontalAlignment="Left" Margin="329,102,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="gbie" Content="RadioButton" HorizontalAlignment="Left" Margin="329,135,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="267,43,0,0" TextWrapping="Wrap" Text="性别：" VerticalAlignment="Top"/>
+        <DatePicker x:Name="datapk1" HorizontalAlignment="Left" Margin="329,178,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.202,0.228"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="432,178,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Image Source="未标题-1.jpg" HorizontalAlignment="Left" Height="100" Margin="595,51,0,0" VerticalAlignment="Top" Width="112"/>
+        <Image Source="NewFolder1/爸爸的处女作1.png" HorizontalAlignment="Left" Height="100" Margin="795,112,0,0" VerticalAlignment="Top" Width="100"/>
+        <ProgressBar Maximum="100" Minimum="0" Value="60"  Name="progress" HorizontalAlignment="Left" Height="18" Margin="566,245,0,0" VerticalAlignment="Top" Width="293"/>
+        <Button Content="加血" HorizontalAlignment="Left" Margin="917,245,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+        <ProgressBar IsIndeterminate="True" HorizontalAlignment="Left" Height="20" Margin="100,343,0,0" VerticalAlignment="Top" Width="317"/>
+
+    </Grid>
+</Window>
