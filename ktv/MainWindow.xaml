@@ -29,6 +29,16 @@
                     <RowDefinition Height="54*"></RowDefinition>
                     <RowDefinition Height="175*"></RowDefinition>
                 </Grid.RowDefinitions>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock  VerticalAlignment="Center" Text="                    名字" FontSize="18"></TextBlock>
+                    <Grid Grid.Row="1">
+                        <Button Content="系统设置" Margin="6"></Button>
+                    </Grid>
+                </Grid>
                 <Grid Grid.Row="1">
                     <Grid.RowDefinitions>
                         <RowDefinition></RowDefinition>
@@ -37,20 +47,20 @@
                         <RowDefinition></RowDefinition>
                         <RowDefinition></RowDefinition>
                         <RowDefinition></RowDefinition>
-                       
+
                     </Grid.RowDefinitions>
-                    <Button Margin="6" Content="切歌"></Button>
-                    <Button Margin="6" Content="重唱" Grid.Column="1"></Button>
-                    <Button Margin="6" Content="伴奏" Grid.Column="0" Grid.Row="1"></Button>
-                    <Button Margin="6" Content="静音" Grid.Column="0" Grid.Row="2"></Button>
-                    <Button Margin="6" Content="切歌" Grid.Column="0" Grid.Row="3"></Button>
-                    <Button Margin="6" Content="切歌" Grid.Column="0" Grid.Row="4"></Button>
-                    <Button Margin="6" Content="切歌" Grid.Column="0" Grid.Row="5"></Button>
-                    <Button Margin="6" Content="原唱" Grid.Column="1" Grid.Row="1"></Button>
-                    <Button Margin="6" Content="暂停" Grid.Column="1" Grid.Row="2"></Button>
-                    <Button Margin="6" Content="切歌" Grid.Column="1" Grid.Row="3"></Button>
-                    <Button Margin="6" Content="切歌" Grid.Column="1" Grid.Row="4"></Button>
-                    <Button Margin="6" Content="切歌" Grid.Column="1" Grid.Row="5"></Button>
+                    <Button Margin="7" Content="切歌"></Button>
+                    <Button Margin="7" Content="重唱" Grid.Column="1"></Button>
+                    <Button Margin="7" Content="伴奏" Grid.Column="0" Grid.Row="1"></Button>
+                    <Button Margin="7" Content="静音" Grid.Column="0" Grid.Row="2"></Button>
+                    <Button Height="50" Width="50" Content="+" Grid.Column="0" Grid.Row="3"></Button>
+                    <TextBlock Margin="7"  VerticalAlignment="Center"   Text="         麦音" Grid.Column="0" Grid.Row="4" FontSize="16"></TextBlock>
+                    <Button Height="50" Width="50" Content="-" Grid.Column="0" Grid.Row="5"></Button>
+                    <Button Margin="7" Content="原唱" Grid.Column="1" Grid.Row="1"></Button>
+                    <Button Margin="7" Content="暂停" Grid.Column="1" Grid.Row="2"></Button>
+                    <Button Height="50" Width="50" Content="+" Grid.Column="1" Grid.Row="3"></Button>
+                    <TextBlock Margin="7"  VerticalAlignment="Center" Text="         曲音" Grid.Column="1" Grid.Row="4" FontSize="16"></TextBlock>
+                    <Button Height="50" Width="50" Content="-" Grid.Column="1" Grid.Row="5"></Button>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition></ColumnDefinition>
                         <ColumnDefinition></ColumnDefinition>
@@ -92,7 +102,7 @@
                 <Button Margin="10" Content="游戏"></Button>
             </Grid>
             <Grid Grid.Column="7">
-                <TextBlock  Text="1080双高清"></TextBlock>
+                <TextBlock  VerticalAlignment="Center" Text="          1080双高清" FontSize="14"></TextBlock>
             </Grid>
         </Grid>
         <Grid>
