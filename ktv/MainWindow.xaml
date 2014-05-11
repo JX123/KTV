@@ -17,12 +17,12 @@
                 <ColumnDefinition Width="96*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <TextBox Text="列表"></TextBox>
-            <Grid Grid.Column="1">
+            <Grid Margin="10,0,1,0" Grid.Column="1">
                 <Grid.RowDefinitions>
                     <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
-                <TextBox Text="MV"></TextBox>
+                <TextBox Text="MV" Margin="0,-10,0,10"></TextBox>
             </Grid>
             <Grid Grid.Column="2">
                 <Grid.RowDefinitions>
@@ -35,9 +35,7 @@
                         <RowDefinition></RowDefinition>
                     </Grid.RowDefinitions>
                     <TextBlock  VerticalAlignment="Center" Text="                    名字" FontSize="18"></TextBlock>
-                    <Grid Grid.Row="1">
-                        <Button Content="系统设置" Margin="6"></Button>
-                    </Grid>
+
                 </Grid>
                 <Grid Grid.Row="1">
                     <Grid.RowDefinitions>
@@ -81,28 +79,32 @@
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Button Margin="10" Content="新歌"></Button>
+            <Button Margin="10" Content="新歌榜"></Button>
             <Grid Grid.Column="1">
-                <Button Margin="10" Content="歌手"></Button>
+                <Button Margin="10" Content="歌手查询"></Button>
             </Grid>
             <Grid Grid.Column="2">
-                <Button Margin="10" Content="语言"></Button>
+                <Button Margin="10" Content="语言查询"></Button>
             </Grid>
             <Grid Grid.Column="3">
-                <Button Margin="10" Content="排行"></Button>
+                <Button Margin="10" Content="排行榜"></Button>
             </Grid>
             <Grid Grid.Column="4">
-                <Button Margin="10" Content="分类"></Button>
+                <Button Margin="10" Content="拼音查询"></Button>
             </Grid>
             <Grid Grid.Column="5">
-                <Button Margin="10" Content="搜索"></Button>
+                <Button Margin="10" Content="笔画查询"></Button>
             </Grid>
             <Grid Grid.Column="6">
-                <Button Margin="10" Content="游戏"></Button>
+                <Button Margin="10" Content="分类查询"></Button>
             </Grid>
             <Grid Grid.Column="7">
-                <TextBlock  VerticalAlignment="Center" Text="          1080双高清" FontSize="14"></TextBlock>
+                <Button Margin="10" Content="游戏"></Button>
+            </Grid>
+            <Grid Grid.Column="8">
+                <TextBox  VerticalAlignment="Center" Text="          1080双高清" FontSize="16"></TextBox>
             </Grid>
         </Grid>
         <Grid>
